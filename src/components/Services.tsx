@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Clock, Users, Star, Flame } from 'lucide-react';
 
@@ -75,7 +74,7 @@ const Services = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-gray-900 rounded-xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all group hover:transform hover:scale-105">
+            <div key={index} className="bg-white rounded-xl overflow-hidden border border-yellow-400/20 hover:border-yellow-400/40 transition-all group hover:transform hover:scale-105">
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -87,22 +86,22 @@ const Services = () => {
                 </div>
 
                 <h3 className="text-xl font-bold mb-3 text-yellow-400">{service.title}</h3>
-                <p className="text-gray-300 mb-6">{service.description}</p>
+                <p className="text-gray-600 mb-6">{service.description}</p>
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center justify-between text-sm">
                     <div className="flex items-center space-x-2">
                       <Clock className="w-4 h-4 text-yellow-400" />
-                      <span className="text-gray-300">Длительность:</span>
+                      <span className="text-gray-600">Длительность:</span>
                     </div>
-                    <span className="text-white font-semibold">{service.duration}</span>
+                    <span className="text-gray-900 font-semibold">{service.duration}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <div className="flex items-center space-x-2">
                       <Users className="w-4 h-4 text-yellow-400" />
-                      <span className="text-gray-300">Группа:</span>
+                      <span className="text-gray-600">Группа:</span>
                     </div>
-                    <span className="text-white font-semibold">{service.maxStudents}</span>
+                    <span className="text-gray-900 font-semibold">{service.maxStudents}</span>
                   </div>
                 </div>
 

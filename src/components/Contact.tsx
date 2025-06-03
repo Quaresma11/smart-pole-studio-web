@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Phone, Mail, MapPin, Clock, Instagram, Telegram } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Instagram, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -76,7 +75,7 @@ const Contact = () => {
                   <Instagram className="w-6 h-6 text-black" />
                 </a>
                 <a href="#" className="w-12 h-12 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-lg flex items-center justify-center hover:from-yellow-500 hover:to-yellow-600 transition-all transform hover:scale-110">
-                  <Telegram className="w-6 h-6 text-black" />
+                  <MessageCircle className="w-6 h-6 text-black" />
                 </a>
               </div>
             </div>

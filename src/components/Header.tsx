@@ -36,6 +36,7 @@ const Header = () => {
             <a href="#about" className="hover:text-yellow-400 transition-colors">О нас</a>
             <a href="#services" className="hover:text-yellow-400 transition-colors">Услуги</a>
             <a href="#trainers" className="hover:text-yellow-400 transition-colors">Тренеры</a>
+            <a href="#gallery" className="hover:text-yellow-400 transition-colors">Галерея</a>
             <a href="#schedule" className="hover:text-yellow-400 transition-colors">Расписание</a>
             <a href="#contact" className="hover:text-yellow-400 transition-colors">Контакты</a>
           </nav>
@@ -60,6 +61,7 @@ const Header = () => {
             <a href="#about" className="block py-2 hover:text-yellow-400 transition-colors">О нас</a>
             <a href="#services" className="block py-2 hover:text-yellow-400 transition-colors">Услуги</a>
             <a href="#trainers" className="block py-2 hover:text-yellow-400 transition-colors">Тренеры</a>
+            <a href="#gallery" className="block py-2 hover:text-yellow-400 transition-colors">Галерея</a>
             <a href="#schedule" className="block py-2 hover:text-yellow-400 transition-colors">Расписание</a>
             <a href="#contact" className="block py-2 hover:text-yellow-400 transition-colors">Контакты</a>
             <button className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 text-black px-6 py-2 rounded-lg font-semibold mt-4">
